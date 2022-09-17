@@ -14,7 +14,7 @@ Este projeto é a trilha Ignite que engloba o projeto (backend, frontend e mobil
 - 02 - Desenvolvimento inicial (landing page/rotas) do front, back e mobile.
 - 03 - Desenvolvimento do backend
 - 04 - Integrado o frontend com o backend e criado modal/página de criação de anúncio/abrir ad
-- 05 -
+- 05 - Desenvolvido a criação de ad pela web e funcionalidade do card de ad pelo mobile.
 
 ## Stacks
 - ReactJs
