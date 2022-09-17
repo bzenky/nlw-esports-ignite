@@ -17,7 +17,7 @@ app.get('/games', async (request, response) => {
     include: {
       _count: {
         select: {
-          ads: true 
+          ads: true
         }
       }
     }
@@ -39,7 +39,7 @@ app.post('/games/:id/ads', async (request, response) => {
       weekDays: body.weekDays.join(','),
       hourStart: convertHourStringToMinutes(body.hourStart),
       hourEnd: convertHourStringToMinutes(body.hourEnd),
-      useVoiceChannel: body.useVoiceChannel  
+      useVoiceChannel: body.useVoiceChannel
     }
   })
 
